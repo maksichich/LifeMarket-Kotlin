@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/backchange"
+    android:layout_height="match_parent"
+    tools:context=".ChangeActivity">
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="40dp"
+            android:fontFamily="@font/inter_semibold"
+            android:text="Редактирование"
+            android:textColor="#229B34"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/imageViewChange"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            tools:background="@drawable/avatar" />
+
+
+        <Button
+            android:id="@+id/uploadImageBtn"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:text="Выбрать фото"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:textColor="#FFFFFF"
+            android:layout_gravity="center"
+            android:backgroundTint="#5CBC54"
+            android:layout_marginTop="20dp"
+            />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:id="@+id/editFullName"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/inter_semibold"
+            android:textColor="#229B34"
+            android:textColorHint="#B9BABA"
+            android:backgroundTint="#B9BABA"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:hint="Ваше ФИО"
+
+            />
+        <EditText
+            android:layout_width="wrap_content"
+            android:id="@+id/editWorkNumber"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/inter_semibold"
+            android:textColor="#229B34"
+            android:textColorHint="#B9BABA"
+            android:backgroundTint="#B9BABA"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:hint="Номер телефона для работы"
+
+            />
+        <EditText
+            android:layout_width="wrap_content"
+            android:id="@+id/editWorkMail"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/inter_semibold"
+            android:textColor="#229B34"
+            android:textColorHint="#B9BABA"
+            android:backgroundTint="#B9BABA"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:hint="Адрес почты для работы"
+
+            />
+        <EditText
+            android:layout_width="wrap_content"
+            android:id="@+id/editPosition"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/inter_semibold"
+            android:textColor="#229B34"
+            android:textColorHint="#B9BABA"
+            android:backgroundTint="#B9BABA"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:hint="Должность"
+
+            />
+        <EditText
+            android:layout_width="wrap_content"
+            android:id="@+id/editNickname"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/inter_semibold"
+            android:textColor="#229B34"
+            android:textColorHint="#B9BABA"
+            android:backgroundTint="#B9BABA"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:hint="Игровое имя"
+
+            />
+        <ProgressBar
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center"
+            android:id="@+id/progress_BarChange"
+            android:visibility="gone"/>
+        <Button
+            android:id="@+id/uploadBtn"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:text="Создать контакт"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:textColor="#FFFFFF"
+            android:layout_gravity="center"
+            android:backgroundTint="#5CBC54"
+            android:layout_marginTop="20dp"
+            />
+
+
+        <TextView
+            android:id="@+id/goProfileTv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Назад"
+            android:textSize="20sp"
+            android:textColor="@color/green"
+            android:layout_gravity="center"
+            android:backgroundTint="#5CBC54"
+            android:layout_marginTop="20dp"
+            />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

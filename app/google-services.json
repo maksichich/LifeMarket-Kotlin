@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "636974939068",
+    "project_id": "lifemart-c543d",
+    "storage_bucket": "lifemart-c543d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:636974939068:android:44af4888803b363d9f49b9",
+        "android_client_info": {
+          "package_name": "com.example.lifemart"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA1XvVDLkgIxbILnnaNQJE0misxPbopP-4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NotesActivity"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="21sp"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:textColor="@color/green"
+            android:textStyle="bold"
+            android:text="Список дел"/>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recycler_view_notes"
+            android:layout_width="match_parent"
+            android:layout_height="471dp"
+            android:layout_marginTop="20dp"
+            tools:listitem="@layout/note_list" />
+        <Button
+            android:id="@+id/note_Btn_To_Create"
+            android:layout_width="220dp"
+            android:layout_height="50dp"
+            android:textSize="21sp"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/white"
+            android:layout_gravity="center"
+            android:backgroundTint="@color/green"
+            android:text="Создать запись"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/note_tv_To_Navi"
+            android:textSize="21sp"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"
+            android:textColor="@color/green"
+            android:textStyle="bold"
+            android:text="В главное меню"/>
+</LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
